@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        {% if x > y %}
+            {% if x < z %}
+              <h1>X is Greater than Y,Z</h1>
+            {% else %}
+              <h1>X is Lesser than Y,Z</h1>
+        {% endif %}
+
+        {% else %}
+            {% if z > y %}
+                <h1>Z is greater than X,Y</h1>
+            {% else %}
+                <h1>Y is Lesser than Z</h1>
+            {% endif %}
+        {% endif %}
+    </center>
+</body>
+</html>
